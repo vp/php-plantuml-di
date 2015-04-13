@@ -1,0 +1,26 @@
+{
+    "name": "vp/php-plantuml-di",
+    "description": "Create PlantUML diagrams from PHP source - extends davidfuhr/php-plantumlwriter with possibility to visualize DI dependencies",
+    "type": "project",
+    "keywords": [
+        "uml"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vaclav Prokes",
+            "email": "vprokes@mouse-over.net"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "MouseOver\\PlantUML": "src/"
+        }
+    },
+    "require": {
+        "davidfuhr/php-plantumlwriter": "dev-master"
+    },
+    "bin": [
+        "bin/php-plantumlwriter"
+    ]
+}
